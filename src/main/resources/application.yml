@@ -1,0 +1,26 @@
+  server.port: 8093
+  spring: 
+   datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+   jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+   mail:
+    host: smtp.gmail.com
+    port: 587
+    username: anilmote1817@gmail.com 
+    password: 9505843531
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+            
